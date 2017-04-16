@@ -254,7 +254,7 @@ Nazwa modułu z nazwy pliku: `guava-21.0.jar -> guava`
 ## Kod i slajdy
 
 - [github.com/pkubowicz/java9-link](https://github.com/pkubowicz/java9-link)
-- [www.slideshare.net/PiotrKubowicz1](https://www.slideshare.net/PiotrKubowicz1)
+- [slideshare.net/PiotrKubowicz1](https://www.slideshare.net/PiotrKubowicz1)
 
 <img src="img/Cc-white.svg" height="100" alt="Creative Commons" class="transparent">
 <img src="img/Cc-by_new_white.svg" height="100" alt="Attribution" class="transparent">
