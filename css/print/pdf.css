@@ -39,6 +39,11 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0 0 0 #000 !important;
 }
 
+.reveal pre {
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
 .reveal pre code {
 	overflow: hidden !important;
 	font-family: Courier, 'Courier New', monospace !important;
