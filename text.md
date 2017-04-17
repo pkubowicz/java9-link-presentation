@@ -258,7 +258,14 @@ dodatkowo zysk w czasie kompilacji
 - [Advanced Modular Development na Java One 2016](https://www.youtube.com/watch?v=WWbw8u5jaaU)
 - [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/) - zaawansowane tematy; nieaktualna składnia!
 - [aktualny format deklaracji modułu](http://cr.openjdk.java.net/~mr/jigsaw/spec/lang-vm.html)
+- [Modules vs. microservices](https://www.oreilly.com/ideas/modules-vs-microservices)
 - [RedHat strzela focha](https://developer.jboss.org/blogs/scott.stark/2017/04/14/critical-deficiencies-in-jigsawjsr-376-java-platform-module-system-ec-member-concerns)
+
+---
+
+## Pomyśl o modułach w Twoim systemie
+
+![Jigsaw](img/Editing_FilePuzzle1_found_bw.jpg)
 
 ---
 
@@ -270,4 +277,6 @@ dodatkowo zysk w czasie kompilacji
 <img src="img/Cc-white.svg" height="100" alt="Creative Commons" class="transparent">
 <img src="img/Cc-by_new_white.svg" height="100" alt="Attribution" class="transparent">
 
-Prezentacja na licencji <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>
+<small>Prezentacja na licencji <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a></small>
+
+<small>Grafika [Willi Heidelbach](https://www.flickr.com/photos/86399392@N00/4470287259), CC BY 2.0</small>
