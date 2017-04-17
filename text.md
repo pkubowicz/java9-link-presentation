@@ -11,6 +11,11 @@
 3. Moduły a biblioteki i monolity
 4. Wsparcie w IDE (IntelliJ Idea)
 5. Narzędzia do budowania
+6. Jak przygotować się już teraz
+
+Note:
+żeby wiedzieli, jakie zyski mogą mieć w swoich projektach i co będą musieli zrobić<br>
+nie wszystko wiadomo - tylko aktualny stan
 
 ---
 
@@ -96,6 +101,9 @@ jli       libjava.so libnet.so    libzip.so    server
 
 `custom-jre/bin/java -m moduł/klasa`
 
+Note:
+pokazać, że nie odpala się długo
+
 ---
 
 ## Moduły w mikroserwisach
@@ -114,7 +122,7 @@ Weźmy prawdziwy serwer, ale lekki np. Undertow ([czołówka wydajności](https:
 
 java.base, java.naming, java.security.jgss, java.sql, java.logging, java.management, java.security.sasl
 
-Custom JRE: 37 MB
+Custom JRE: **37 MB**
 
 ---
 
@@ -223,12 +231,12 @@ Nazwa modułu z nazwy pliku: `guava-21.0.jar -> guava`
 
 ## Budowanie
 
-- Gradle - jeszcze [nie działa](https://discuss.gradle.org/t/java-9-build-9-ea-155-mixed-mode-problems/21618) z Javą 9
+- Gradle - jeszcze nie da się skompilować modułów
 - Maven - chyba [da się](https://github.com/cfdobber/maven-java9-jigsaw)
 
 ---
 
-## Przygotowanie na moduły w Javie 8
+## Moduły bez Javy 9
 
 - Java Library Plugin w Gradle'u
   - nowy, promowany sposób kompilowania Javy
@@ -236,6 +244,9 @@ Nazwa modułu z nazwy pliku: `guava-21.0.jar -> guava`
 - Java Software Model
   - eksperymentalny, brak wsparcia w IDE
   - dodatkowo [ukrywanie publicznych klas przed klientami](https://docs.gradle.org/3.5/userguide/java_software.html#sec:specifying_api_classes)
+
+Note:
+dodatkowo zysk w czasie kompilacji
 
 ---
 
