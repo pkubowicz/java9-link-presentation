@@ -15,7 +15,8 @@
 
 Note:
 żeby wiedzieli, jakie zyski mogą mieć w swoich projektach i co będą musieli zrobić<br>
-nie wszystko wiadomo - tylko aktualny stan
+nie wszystko wiadomo - tylko aktualny stan<br>
+release 27 lipca
 
 ---
 
@@ -259,7 +260,7 @@ dodatkowo zysk w czasie kompilacji
 - [The State of the Module System](http://openjdk.java.net/projects/jigsaw/spec/sotms/) - zaawansowane tematy; nieaktualna składnia!
 - [aktualny format deklaracji modułu](http://cr.openjdk.java.net/~mr/jigsaw/spec/lang-vm.html)
 - [Modules vs. microservices](https://www.oreilly.com/ideas/modules-vs-microservices)
-- [RedHat strzela focha](https://developer.jboss.org/blogs/scott.stark/2017/04/14/critical-deficiencies-in-jigsawjsr-376-java-platform-module-system-ec-member-concerns)
+- [RedHat strzela focha](https://developer.jboss.org/blogs/scott.stark/2017/04/14/critical-deficiencies-in-jigsawjsr-376-java-platform-module-system-ec-member-concerns) + [odpowiedź](https://jaxenter.com/jigsaw-fragment-java-community-133373.html)
 
 ---
 
