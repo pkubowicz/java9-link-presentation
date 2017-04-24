@@ -115,6 +115,9 @@ pokazać, że nie odpala się długo
 - Alpine + Java 9: **35-41 MB**
 - bez Dockera: katalog **30 MB**, .tar.bz2 **15 MB**
 
+Note:
+urządzenia wbudowane
+
 ---
 
 ## Moduły w mikroserwisach
