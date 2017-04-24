@@ -218,8 +218,8 @@ Nazwa modułu z nazwy pliku: `guava-21.0.jar -> guava`
 
 - zakaz *split packages* - dany pakiet tylko w 1 module, nawet nieeksportowany
   - wiele bibliotek nie było pisanych z taką myślą
-- Jigsaw nie zajmuje się konfliktem wersji, to zadanie Gradle/Mavena
-  - czyli nawet z modułami możemy dostać ClassNotFoundException w runtimie
+- Jigsaw nie zajmuje się konfliktem wersji, to zadanie Gradle'a/Mavena
+  - możliwe NoClassDefFoundError lub NoSuchMethodError w runtimie
 
 ---
 
