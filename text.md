@@ -2,6 +2,11 @@
 
 <small>Piotr Kubowicz [@pkubowicz](https://twitter.com/pkubowicz)</small>
 
+Note:
+żeby wiedzieli, jakie zyski mogą mieć w swoich projektach i co będą musieli zrobić<br>
+nie wszystko wiadomo - tylko aktualny stan<br>
+release 27 lipca
+
 ---
 
 ## Plan podróży
@@ -12,11 +17,6 @@
 4. Wsparcie w IDE (IntelliJ Idea)
 5. Narzędzia do budowania
 6. Jak przygotować się już teraz
-
-Note:
-żeby wiedzieli, jakie zyski mogą mieć w swoich projektach i co będą musieli zrobić<br>
-nie wszystko wiadomo - tylko aktualny stan<br>
-release 27 lipca
 
 ---
 
@@ -55,12 +55,13 @@ nie ma opcji, że zabraknie klasy - weryfikacja na starcie
 <li class="fragment" class="fragment" data-fragment-index="0">java.management (JMX)</li>
 <li class="fragment" data-fragment-index="0">java.instrument</li>
 <li class="fragment" data-fragment-index="1">java.corba :)</li>
-<li class="fragment" data-fragment-index="2">[razem 24](http://download.java.net/java/jdk9/docs/api/index.html?overview-summary.html)</li>
+<li class="fragment" data-fragment-index="2">[razem ponad 70](http://download.java.net/java/jdk9/docs/api/index.html?overview-summary.html)</li>
 </ul>
 
 
 Note:
-corba - to, co wszyscy kochamy i potrzebujemy
+corba - to, co wszyscy kochamy i potrzebujemy<br>
+w przeglądarce graf zależności dla java.naming i java.corba
 
 ---
 
@@ -69,6 +70,9 @@ corba - to, co wszyscy kochamy i potrzebujemy
 Kod można uruchamiać "po staremu" - przez classpath.
 
 Działa np. Tomcat 8, ElasticSearch 2.4
+
+Note:
+pokazać "goły" Tomcat 8
 
 ---
 
@@ -80,7 +84,7 @@ Działa np. Tomcat 8, ElasticSearch 2.4
 - po skompilowaniu takiego JAR-a nie wczyta Java 8
 
 Note:
-pokazać po raz pierwszy projekt w IDE
+pokazać po raz pierwszy projekt w IDE, wszystkie pliki .java
 
 ---
 
@@ -206,6 +210,9 @@ Error occurred during initialization of boot layer
 java.lang.module.FindException: Module example.greeter.protocol
 not found, required by example.greeter.server
 </pre>
+
+Note:
+pokazać w konsoli
 
 ---
 
